@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 5.9.3"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": { // Aquí se definen las variables de entorno específicas para el perfil de vista previa
+        "API_BASE_PRINCIPAL": "http://192.168.173.205:5000/api",
+        "API_BASE_CREAR": "http://192.168.173.205:5000/api",
+        "API_BASE_ADD": "http://192.168.173.205:8000/api",
+        "API_BASE_RESULTADOS": "http://192.168.173.205:8000/api",
+        "API_BASE_REPORTE": "http://192.168.173.205:4000/api"
+      }
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}

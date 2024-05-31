@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "app-pulmones",
+    "slug": "app-pulmones",
+    "scheme": "app-pulmones",
+    "version": "1.0.0",
+    
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/inicio.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "width": "50%",
+      "height": "50%"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/inicio.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.lenin1999.apppulmones"
+    },
+    "web": {
+      "favicon": "./assets/images/inicio.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fc63c6a8-e1e3-4e6e-a43c-bcff0cb8b762"
+      }
+    },
+   
+  }
+}
